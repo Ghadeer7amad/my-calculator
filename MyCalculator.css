@@ -1,0 +1,105 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+body{
+   background: #2d354a;
+   font-family: dosis, sans-serif;
+}
+
+h2{
+    position: fixed;
+    top: 12%;
+    left: 43%;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: inter, sans-serif;
+    font-size: 18px;
+}
+
+
+.box{
+    border: 1px solid #2d354a;
+    width: 310px;
+    height: 450px;
+    position: fixed;
+    left: 38%;
+    top: 10%;
+    box-shadow: 2px 4px 19px;
+    background: #2d354a;
+    border-radius: 20px;
+}
+
+
+
+.subbox{
+    margin: 40px 7%;
+}
+
+.textview{
+    width: 93%;
+    padding: 10px;
+    margin: 10px 0%;
+    border-radius: 4px;
+    font-size: 18px;
+    border: none;
+    font-family: comic Neue, cursive;
+    font-weight: bolder;
+    
+    
+
+}
+
+
+
+
+input[type= button]{
+    width: 55px;
+    height: 55px;
+    border-radius: 60px;
+    font-size: 20px;
+    border: none;
+    border-bottom: none;
+    box-shadow: 5px 0px 8px 1px #191919;
+    background: white;
+    color: #2d354a;
+    cursor: pointer;
+    font-family: comic Neue, cursive;
+    font-weight: bolder;
+    outline: none;
+}
+
+input[type= button]:hover{
+    background: #caccce;
+    
+
+}
+
+
+
+
+
+input[type= submit]{
+    width: 55px;
+    height: 55px;
+    border-radius: 60px;
+    font-size: 20px;
+    border: none;
+    border-bottom: none;
+    box-shadow: 5px 0px 8px 1px #191919;
+    background: rgb(54, 47, 122);
+    color: white;
+    cursor: pointer;
+    font-family: comic Neue, cursive;
+    font-weight: bolder;
+    outline: none;
+
+}
+
+input[value= "="]{
+    background: #7e1e1b;
+}
+
